@@ -1,3 +1,3 @@
-##Vertical Card Design
+## Vertical Card Design
 
 A simple vertical card design 😊.
