@@ -41,6 +41,11 @@ body {
   background-image: url("https://res.cloudinary.com/layinkawebdev/image/upload/v1599761848/profile-avatar_w40phf.jpg");
   background-size: cover;
   border: 5px solid white;
+  transition: transform 2s;
+}
+
+.avatar:hover {
+  transform: scale(1.2);
 }
 
 .middle-triangle {
@@ -93,17 +98,15 @@ p {
   width: 50%;
   height: 50px;
   border-radius: 30px;
-  /* background: linear-gradient(90deg, rgba(246, 81, 29, 1) 0%, rgba(255, 180, 0, 1) 100%); */
   background-color: #f6511d;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  transition: background 2s ease-in-out;
 }
 
 .button:hover {
-  /* background: linear-gradient(90deg, rgba(255, 180, 0, 1) 0%, rgba(246, 81, 29, 1) 100%); */
-  transition: background 2s ease-in-out;
   background: #ffb400;
   cursor: pointer;
 }
