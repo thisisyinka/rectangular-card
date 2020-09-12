@@ -148,8 +148,8 @@ p {
 }
 
 .avatar {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   background-color: white;
   border-radius: 50%;
   /*Image gotten from https://image.freepik.com/free-vector/portrait-african-american-woman-profile-avatar-young-black-girl_102172-418.jpg*/
@@ -199,12 +199,13 @@ h3 {
   font-family: "Niconne", cursive;
   font-size: 1em;
   margin: 0;
+  text-align: center;
 }
 
 p {
   padding: 10px 30px 10px 30px;
   font-family: 'Syne', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-align: center;
 }
 
