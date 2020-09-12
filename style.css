@@ -115,3 +115,112 @@ p {
   color: white;
   font-size: 20px;
 }
+
+
+/* MOBILE DESIGN */
+@media screen and (max-width: 650px) {
+  .rectangle {
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 28px -2px rgba(0, 0, 0, 0.28);
+  }
+  
+  .top-rectangle {
+  height: 300px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 60px;
+  background-color: #f6511d;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border-radius: 50%;
+  /*Image gotten from https://image.freepik.com/free-vector/portrait-african-american-woman-profile-avatar-young-black-girl_102172-418.jpg*/
+  background-image: url("https://res.cloudinary.com/layinkawebdev/image/upload/v1599761848/profile-avatar_w40phf.jpg");
+  background-size: cover;
+  border: 5px solid white;
+  transition: transform 2s;
+}
+
+.avatar:hover {
+  transform: scale(1.2);
+}
+
+.middle-triangle {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 60px solid #f6511d;
+  border-bottom: 50px solid transparent;
+  position: relative;
+  z-index: 2;
+  float: right;
+
+}
+
+.bottom-rectangle {
+  height: 300px;
+  background-color: white;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 60px;
+  position: relative;
+  z-index: 4;
+}
+
+.content {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+h3 {
+  font-family: "Niconne", cursive;
+  font-size: 3em;
+  margin: 0;
+}
+
+p {
+  padding: 10px 30px 10px 30px;
+  font-family: 'Syne', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.button {
+  font-family: 'Syne', sans-serif;
+  width: 50%;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #f6511d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: background 2s ease-in-out;
+}
+
+.button:hover {
+  background: #ffb400;
+  cursor: pointer;
+}
+
+.button span {
+  color: white;
+  font-size: 20px;
+}
+}
